@@ -1,8 +1,25 @@
 # Amcss::Rails
 
-amcss-rails make [amcss](https://github.com/sistrall/amcss) in Rails.
+amcss-rails makes [amcss](https://github.com/sistrall/amcss) available in Rails (don't know amcss? Take a look at  [README](https://github.com/sistrall/amcss/blob/master/README.md)).
 
-(Don't know amcss? Take a look at the [README](https://github.com/sistrall/amcss/blob/master/README.md))
+Shortly: you write this...
+
+```haml
+= am(:box) do |b|
+  = b.am(:header) do
+    Header
+  = b.am(:content) do
+    Body
+```
+
+...and get this:
+
+```html
+<div data-am-box>
+  <div data-am-box__header>Header</div>
+  <div data-am-box__content>Content</div>
+</div>
+```
 
 ## Installation
 
