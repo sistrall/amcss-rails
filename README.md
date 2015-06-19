@@ -2,6 +2,8 @@
 
 amcss-rails makes [amcss](https://github.com/sistrall/amcss) available in Rails (don't know amcss? Take a look at  [README](https://github.com/sistrall/amcss/blob/master/README.md)).
 
+[![Build Status](https://travis-ci.org/sistrall/amcss-rails.svg)](https://travis-ci.org/sistrall/amcss-rails)
+
 Shortly: you write this...
 
 ```haml
