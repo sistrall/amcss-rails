@@ -92,7 +92,7 @@ This is what you get:
 ```html
 <div data-am-calendar="flat">
   <div data-am-calendar__header="padded"></div>
-  <div data-am-calendar__body=""></div>
+  <div data-am-calendar__body></div>
 </div>
 ```
 
